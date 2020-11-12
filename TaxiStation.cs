@@ -24,7 +24,7 @@ namespace Homework.IT_Academy2
         public TaxiStation(string filePath)
         {
             string content = File.ReadAllText(filePath);
-            Cars = (Car[])JsonConvert.DeserializeObject(content);
+            Cars =JsonConvert.DeserializeObject<Car[]>(content);
         }
     }
 }

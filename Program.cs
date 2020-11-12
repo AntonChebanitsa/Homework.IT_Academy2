@@ -6,11 +6,12 @@ namespace Homework.IT_Academy2
     {
         static void Main(string[] args)
         {
-            string path = "C:\\Users\\USER\\source\\repos\\Homework.IT_Academy2";
+            string path = "D:\\Homework.IT_Academy2\\Cars.json";
             var station = new TaxiStation(path);
         }
     }
 }
+
 /*
 Таксопарк.
 Определить иерархию легковых автомобилей. 

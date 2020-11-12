@@ -1,0 +1,32 @@
+[
+  {
+    "Name": "Ford",
+    "Speed": 1000,
+    "Consumption": 7.6,
+    "Cost": 1000
+  },
+  {
+    "Name": "Peugeot",
+    "Speed": 1000,
+    "Consumption": 7.6,
+    "Cost": 1000
+  },
+  {
+    "Name": "Ford",
+    "Speed": 1000,
+    "Consumption": 7.6,
+    "Cost": 1000
+  },
+  {
+    "Name": "Ford",
+    "Speed": 1000,
+    "Consumption": 7.6,
+    "Cost": 1000
+  },
+  {
+    "Name": "Ford",
+    "Speed": 1000,
+    "Consumption": 7.6,
+    "Cost": 1000
+  }
+]

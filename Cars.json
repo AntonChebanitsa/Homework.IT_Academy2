@@ -1,32 +1,46 @@
 [
   {
     "Name": "Ford",
-    "Speed": 1000,
+    "Speed": 45,
     "Consumption": 7.6,
-    "Cost": 1000
+    "Cost": 1000,
+    "TypeFuel": "Petrol",
+    "Capacity": 70
   },
   {
     "Name": "Peugeot",
-    "Speed": 1000,
-    "Consumption": 7.6,
-    "Cost": 1000
+    "Speed": 50,
+    "Consumption": 8.1,
+    "Cost": 2000,
+    "TypeFuel": "Diesel",
+    "Capacity": 60
   },
   {
-    "Name": "Ford",
-    "Speed": 1000,
-    "Consumption": 7.6,
-    "Cost": 1000
+    "Name": "Skoda",
+    "Speed": 55,
+    "Consumption": 9.3,
+    "Cost": 4000,
+    "TypeFuel": "Petrol",
+    "Capacity": 45
   },
   {
-    "Name": "Ford",
-    "Speed": 1000,
-    "Consumption": 7.6,
-    "Cost": 1000
+    "Name": "Renault",
+    "Speed": 60,
+    "Consumption": 9.5,
+    "Cost": 10000,
+    "TypeFuel": "Gas",
+    "Capacity": 35
   },
   {
-    "Name": "Ford",
-    "Speed": 1000,
-    "Consumption": 7.6,
-    "Cost": 1000
+    "Name": "Tesla",
+    "Speed": 65,
+    "Cost": 20000,
+    "TypeFuel": "Electricity",
+    "Battery": 
+    {
+      "Manufacturer": "Toshiba",
+      "ElectroCapacity": 15000,
+      "ElectroConsumption": 750
+    }
   }
 ]

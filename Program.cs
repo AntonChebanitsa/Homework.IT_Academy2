@@ -8,6 +8,7 @@ namespace Homework.IT_Academy2
         {
             string path = "D:\\Homework.IT_Academy2\\Cars.json";
             var station = new TaxiStation(path);
+            station.SummaryCost()
         }
     }
 }

@@ -9,22 +9,31 @@ namespace Homework.IT_Academy2
 {
     class TaxiStation
     {
-
-        public Car[] Cars { get;}
-
+        public Car[] Cars { get; }
+        double sum = 0;
         Car SortByConsumption(double consumption)
         {
             return null;
         }
-        void FindBySpeed() { }
-        float SummaryCost()
+        public void FindBySpeed(Car[] car)
         {
-            return 0;
+            Console.WriteLine("Enter speed: ");
+            int enteredSpeed = Convert.ToInt32(Console.ReadLine());
+            for (int i = 0; i < Cars.Length; i++)
+                if (enteredSpeed = )
+                    Console.WriteLine("");
+            Console.WriteLine();
+        }
+        public double SummaryCost(int cost)
+        {
+            for (int i = 0; i < Cars.Length; i++)
+                sum += cost;
+            return sum;
         }
         public TaxiStation(string filePath)
         {
             string content = File.ReadAllText(filePath);
-            Cars =JsonConvert.DeserializeObject<Car[]>(content);
+            Cars = JsonConvert.DeserializeObject<Car[]>(content);
         }
     }
 }

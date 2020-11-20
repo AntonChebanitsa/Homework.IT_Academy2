@@ -1,0 +1,24 @@
+[
+  {
+    "Name": "Tesla",
+    "Speed": 65,
+    "Cost": 20000,
+    "TypeFuel": "Electricity",
+    "Battery": {
+      "Manufacturer": "Toshiba",
+      "ElectroCapacity": 15000,
+      "ElectroConsumption": 750
+    }
+  },
+  {
+    "Name": "Leaf",
+    "Speed": 35,
+    "Cost": 10000,
+    "TypeFuel": "Electricity",
+    "Battery": {
+      "Manufacturer": "Bosh",
+      "ElectroCapacity": 10000,
+      "ElectroConsumption": 650
+    }
+  }
+]

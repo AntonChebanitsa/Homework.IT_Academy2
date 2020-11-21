@@ -31,13 +31,40 @@ namespace Homework.IT_Academy2
                     }
                 }
             }
+            Console.WriteLine("Cars before sorting");
+
+            foreach (var car in Cars)
+            {
+                Console.WriteLine(car.Name + "=" + car.Cost);
+            }
+
+            Console.WriteLine("\nCars after sorting");
+
+            foreach (var car in Cars)
+            {
+                Console.WriteLine(car.Name + "=" + car.Cost);
+            }
         }
-        public void FindBySpeed(Car[] c)
+        public void FindBySpeed()
         {
             Console.WriteLine("Enter speed: ");
             var enteredSpeed = Convert.ToInt32(Console.ReadLine());
+            bool isFounded = false;
             foreach (var car in Cars)
-                Console.WriteLine(enteredSpeed == car.Speed ? $"Founded car {car.Name}" : "Not found");
+            {
+                if (enteredSpeed == car.Speed)
+                {
+                    Console.WriteLine($"Founded car {car.Name}");
+                    isFounded = true;
+                    return;
+                }
+                else
+                {
+                    isFounded = false;
+                }
+            }
+            if (isFounded == false)
+                Console.WriteLine("Not found");
         }
         public int SummaryCost()
         {

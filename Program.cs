@@ -31,32 +31,14 @@ namespace Homework.IT_Academy2
                 cars[elCars.Length + i] = fuCars[i];
             }
 
-            var ts = new TaxiStation(cars);
-            var a = ts.SummaryCost();
+            var station = new TaxiStation(cars);
+            var a = station.SummaryCost();
 
-            Console.WriteLine("Cars before sorting");
+            station.SortByCost();
 
-            foreach (var car in ts.Cars)
-            {
-                Console.WriteLine(car.Name + "=" + car.Cost);
-            }
-            ts.SortByCost();
-            Console.WriteLine("Cars after sorting");
-            foreach (var car in ts.Cars)
-            {
-                Console.WriteLine(car.Name + "=" + car.Cost);
-            }
+            Console.WriteLine($"\nSummary cost is= {station.SummaryCost()}");
 
+            station.FindBySpeed();
         }
     }
 }
-
-/*
-Таксопарк.
-Определить иерархию легковых автомобилей. 
-Создать таксопарк.
-Посчитать стоимость автопарка.
-Провести сортировку автомобилей парка по расходу топлива. 
-Найти автомобиль в компании, соответствующий заданному диапазону параметров скорости.
-var car = new Car("Ford", 1000, 7.6, 1000);
-*/

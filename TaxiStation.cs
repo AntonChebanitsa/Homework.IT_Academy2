@@ -27,7 +27,7 @@ namespace Homework.IT_Academy2
             }
 
             var sortedByCost = from car in Cars
-                orderby car.Speed
+                orderby car.Cost
                 select car;
 
             Console.WriteLine("\nCars after sorting");

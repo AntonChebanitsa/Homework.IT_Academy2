@@ -10,6 +10,7 @@ namespace Homework.IT_Academy2
     {
         public double Consumption { get; set; }
         public FuelTank FuelTank { get; }
+
         public FuelCar(string name, int speed, int cost, double consumption, string typeFuel, FuelTank fuelTank)
             : base(name, speed, cost, typeFuel)
         {
@@ -17,6 +18,7 @@ namespace Homework.IT_Academy2
             FuelTank = fuelTank;
             TypeFuel = typeFuel;
         }
+
         public override void Move()
         {
             Console.WriteLine("I travel long distances without refueling");

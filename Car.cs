@@ -18,6 +18,7 @@ namespace Homework.IT_Academy2
             Cost = cost;
             TypeFuel = typeFuel;
         }
+
         public abstract void Move();
     }
 }

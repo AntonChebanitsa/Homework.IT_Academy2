@@ -13,7 +13,7 @@
   {
     "Name": "Leaf",
     "Speed": 35,
-    "Cost": 10000,
+    "Cost": 11000,
     "TypeFuel": "Electricity",
     "Battery": {
       "Manufacturer": "Bosh",
